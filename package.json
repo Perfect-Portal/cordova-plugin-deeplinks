@@ -36,9 +36,12 @@
     "node-version-compare": ">=1.0.1",
     "plist": ">=1.2.0"
   },
-  "resolutions": {
-    "minipass": "4.2.8",
-    "path-scurry": "1.9.2"
+  "overrides": {
+    "rimraf": {
+      "glob": {
+        "path-scurry": "1.9.2"
+      }
+    }
   },
   "author": "Nikolay Demyankov for Nordnet Bank AB",
   "license": "MIT",
